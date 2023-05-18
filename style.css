@@ -1,0 +1,61 @@
+*{
+    box-sizing:border-box;
+}
+.column{
+    float:left;
+    width:33.3%;
+}
+img{
+    border:10px solid black;
+    margin:0px;
+    padding:10px;
+
+}
+h1{
+    color:red;
+    text-align:center;
+    font-weight:bold;
+}
+body{
+    text-align: center;
+    background-color:paleturquoise;
+}
+.clothes{
+    flot:left;
+}
+.row::after{
+
+    content:"";
+    display:table;
+}
+h2{
+    color:blue;
+    font-family: 'Fjalla One', sans-serif;
+}
+.demand{
+    color:darkred;
+}
+.life{
+    color:deeppink;
+}
+.swag{
+    color:crimson;
+}
+.link{
+float:left;
+    border:10px solid black;
+}
+hr{
+    margin:200px;
+}
+#mah{
+    float:left;
+    border:5px solid black;
+    margin-left:30px;
+}
+#main{
+    margin-top: 300px;
+}
+.contact{
+    margin-left: 100px;
+}
